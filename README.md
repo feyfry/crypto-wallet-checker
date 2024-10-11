@@ -1,8 +1,3 @@
-## Tampilan Aplikasi
-
-![Mobile](Samsung-Galaxy-S20-localhost.png#width=300)
-![Desktop](Screenshot-2024-10-11-171709.jpg#width=300)
-
 # Proyek React dan Rust
 
 Panduan instalasi untuk proyek ini, termasuk langkah-langkah untuk frontend (React) dan backend (Rust).
@@ -44,3 +39,7 @@ cargo run
 - Hal ini mungkin menjadi keterbatasan saat ini dan area untuk perbaikan di masa depan.
 
 ## Happy Trying! 😊
+
+## Tampilan Aplikasi
+![Mobile](Samsung-Galaxy-S20-localhost.png)
+![Desktop](Screenshot-2024-10-11-171709.jpg)
