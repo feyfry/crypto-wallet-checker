@@ -2,7 +2,7 @@
 
 ![Mobile](Samsung-Galaxy-S20-localhost.png)
 
-![Desktop](Screenshot 2024-10-11 171709.jpg)
+![Desktop](Screenshot-2024-10-11-171709.jpg)
 
 # Proyek React dan Rust
 
