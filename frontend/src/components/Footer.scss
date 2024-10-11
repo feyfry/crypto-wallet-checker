@@ -1,0 +1,62 @@
+// Footer.scss
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e0e5ec;
+    color: #333;
+    padding: 1rem 0;
+    z-index: 1000;
+
+    &.neumorphic {
+        box-shadow:
+            20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+    }
+
+    .footer-text {
+        font-size: 0.85rem;
+    }
+    .footer-text a {
+        text-decoration: none;
+    }
+
+    .social-links {
+        display: flex;
+        gap: 1rem;
+
+        .neumorphic-icon {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            box-shadow:
+                5px 5px 10px #bebebe,
+                -5px -5px 10px #ffffff;
+            transition: all 0.3s ease;
+
+            &:hover {
+                box-shadow:
+                    inset 5px 5px 10px #bebebe,
+                    inset -5px -5px 10px #ffffff;
+            }
+
+            i {
+                font-size: 1.2rem;
+                color: #333;
+            }
+        }
+    }
+}

@@ -1,0 +1,167 @@
+$background-color: #e0e5ec;
+$shadow-color: #a3b1c6;
+$highlight-color: #ffffff;
+$text-color: #4a4a4a;
+$error-color: #ff4d4f;
+$success-color: #52c41a;
+
+body {
+  background-color: $background-color;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  /* Ensure full viewport height */
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background-color: $background-color;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow:
+    8px 8px 15px $shadow-color,
+    -8px -8px 15px $highlight-color;
+  width: 100%;
+  /* Set a minimum height to ensure proper centering */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Center items vertically */
+  box-sizing: border-box;
+  /* Include padding in height calculations */
+}
+
+h1 {
+  color: $text-color;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: $text-color;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: $background-color;
+  box-shadow:
+    inset 2px 2px 5px $shadow-color,
+    inset -2px -2px 5px $highlight-color;
+  outline: none;
+  transition: all 0.3s ease;
+
+  &:focus {
+    box-shadow:
+      inset 4px 4px 8px $shadow-color,
+      inset -4px -4px 8px $highlight-color;
+  }
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: $background-color;
+  color: $text-color;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow:
+    5px 5px 10px $shadow-color,
+    -5px -5px 10px $highlight-color;
+
+  &:hover {
+    box-shadow:
+      3px 3px 5px $shadow-color,
+      -3px -3px 5px $highlight-color;
+  }
+
+  &:active {
+    box-shadow:
+      inset 2px 2px 5px $shadow-color,
+      inset -2px -2px 5px $highlight-color;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.error-message {
+  color: $error-color;
+  background-color: lighten($error-color, 35%);
+  border: 1px solid $error-color;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: $background-color;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow:
+    5px 5px 10px $shadow-color,
+    -5px -5px 10px $highlight-color;
+}
+
+.card-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: $text-color;
+}
+
+.status {
+  font-weight: bold;
+
+  &.valid {
+    color: $success-color;
+  }
+
+  &.error {
+    color: $error-color;
+  }
+}
+
+.error {
+  color: $error-color;
+}
+
+.explorer-link {
+  color: #0066cc;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.external-link-icon {
+  font-size: 0.8em;
+}

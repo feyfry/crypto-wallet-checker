@@ -1,0 +1,25 @@
+[package]
+name = "crypto-address-validator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.3"
+actix-cors = "0.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.28", features = ["full"] }
+bitcoin = "0.30"
+ethereum-types = "0.14"
+solana-sdk = "1.16"
+cardano-serialization-lib = "11.2"
+bs58 = "0.5"
+hex = "0.4"
+regex = "1.8"
+thiserror = "1.0"
+bech32 = "0.9"
+sha3 = "0.10"
+wasm-bindgen = "0.2.87"
+
+[workspace]
+resolver = "2"
