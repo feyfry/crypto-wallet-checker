@@ -41,5 +41,6 @@ cargo run
 ## Happy Trying! 😊
 
 ## Tampilan Aplikasi
+
 ![Mobile](Samsung-Galaxy-S20-localhost.png)
 ![Desktop](Screenshot-2024-10-11-171709.jpg)
