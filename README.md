@@ -1,8 +1,7 @@
 ## Tampilan Aplikasi
 
-![Mobile](Samsung-Galaxy-S20-localhost.png)
-
-![Desktop](Screenshot-2024-10-11-171709.jpg)
+![Mobile](Samsung-Galaxy-S20-localhost.png#width=300)
+![Desktop](Screenshot-2024-10-11-171709.jpg#width=300)
 
 # Proyek React dan Rust
 
