@@ -1,3 +1,8 @@
+## Tampilan Aplikasi
+
+![Mobile]("Samsung-Galaxy-S20-localhost.png")
+![Desktop]("Screenshot 2024-10-11 171709.jpg")
+
 # Proyek React dan Rust
 
 Panduan instalasi untuk proyek ini, termasuk langkah-langkah untuk frontend (React) dan backend (Rust).
