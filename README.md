@@ -6,8 +6,8 @@ Panduan instalasi untuk proyek ini, termasuk langkah-langkah untuk frontend (Rea
 
 Sebelum memulai, pastikan Anda memiliki:
 
-- [Node.js](https://nodejs.org/) (v14 atau lebih baru) untuk frontend
-- [Rust](https://www.rust-lang.org/tools/install) dan [Cargo](https://doc.rust-lang.org/cargo/) untuk backend
+- [Node.js](https://nodejs.org/) (v14 atau lebih baru) -> ReactJS Framework untuk frontend
+- [Cargo](https://doc.rust-lang.org/cargo/) -> [Rust](https://www.rust-lang.org/tools/install) untuk backend
 
 ## Instalasi dan Menjalankan Proyek
 
